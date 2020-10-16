@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/05f38f1382.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bootstrap</title>
+    <style>
+      body,
+      html {
+        background: url("pexels-pixabay-210186.jpg") no-repeat center center fixed;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+      }
+      .button:hover {
+        border: 2px solid red;
+        background-color: darkturquoise;
+        animation: animate 2s infinite;
+      }
+      @keyframes animate {
+        0% {
+          border: 2px solid crimson;
+          background-color: darkturquoise;
+        }
+        50% {
+          transform: scale(1.5, 1.5) rotate(5deg);
+          background-color: salmon;
+        }
+        75% {
+          transform: scale(1.5, 1.5) rotate(-5deg);;
+          background-color: salmon;
+        }
+        100% {
+          border: 2px solid crimson;
+          background-color: darkturquoise;
+        }
+      }
+      .row {
+        width: 99vw;
+        margin: 0;
+      }
+      .head {
+        height: 20%;
+        font-family: "Orbitron";
+        color: #ffffff;
+        animation: load 1s ease-in;
+      }
+    </style>
+  </head>
+  <body class="row d-flex justify-content-center">
+    <div
+      class="row d-flex justify-content-center align-items-center type flex-column"
+    >
+      <h1 class="head">R.AKHIL SAI 1906115</h1>
+    </div>
+    <div class="row col-sm-2 align-self-center">
+      <a
+        class="btn btn-block btn-warning btn-lg button"
+        data-toggle="modal"
+        data-target="#reserveModal"
+        >CLICL FOR MORE!</a
+      >
+    </div>
+  </body>
+</html>
